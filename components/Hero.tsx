@@ -1,7 +1,7 @@
-import { SiteContent } from "@/config";
+import { siteContent } from "@/config";
 
 const Hero = () => {
-  const { name, specialty, summary, email } = SiteContent.hero;
+  const { name, specialty, summary, email } = siteContent.hero;
   return (
     <section className="py-24 md:py-32" id="#hero">
       <h1 className="text-6xl font-serif mb-1.5 sm:text-8xl md:text-9xl md:mb-0 text-white font-bold tracking-tightest">

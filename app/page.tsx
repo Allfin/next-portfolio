@@ -1,3 +1,4 @@
+import Experience from "@/components/Experience";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <Header />
       <main className="max-w-3xl px-5 mx-auto">
         <Hero />
+        <Experience />
       </main>
     </div>
   );
