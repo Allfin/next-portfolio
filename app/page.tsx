@@ -1,6 +1,7 @@
 import Experience from "@/components/Experience";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import ProjectExperiences from "@/components/ProjectExperiences";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <main className="max-w-3xl px-5 mx-auto">
         <Hero />
         <Experience />
+        <ProjectExperiences />
       </main>
     </div>
   );

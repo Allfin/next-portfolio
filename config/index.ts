@@ -31,4 +31,22 @@ export const siteContent = {
       ],
     },
   ],
+  project: [
+    {
+      nameProject: "E-Commerce",
+      specialty: "Fullstack Developer",
+      summary: "an e-commerce app that uses Midtrans as a payment gateway.",
+      img: "/assets/img/proshop.png",
+      source: "https://github.com/Allfin/proshop-v2",
+      preview: "https://proshop-v2-90mo.onrender.com/ ",
+    },
+    {
+      nameProject: "Movie App",
+      specialty: "Frontend Developer",
+      summary: "A movie app that ruplicate themoviedb",
+      img: "/assets/img/movieApp.png",
+      source: "https://github.com/Allfin/next-movie",
+      preview: "https://movie-next-iota.vercel.app/",
+    },
+  ],
 };
