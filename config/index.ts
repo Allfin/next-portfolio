@@ -9,3 +9,13 @@ export const siteConfig = {
     { text: "About", href: "#about" },
   ],
 };
+
+export const SiteContent = {
+  hero: {
+    name: "All Fine Maulinaro",
+    specialty: "Frontend Developer",
+    summary:
+      "Frontend Developer based in Indonesia. I specialize in building user-friendly web applications using Next.js, with expertise in HTML, CSS, and JavaScript.",
+    email: "allfinemaulinaro@email.com",
+  },
+};
