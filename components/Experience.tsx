@@ -22,8 +22,8 @@ const Experience = () => {
           </div>
           {Array.isArray(exp.summary) ? (
             <ul className="">
-              {exp.summary.map((log) => (
-                <li className="flex gap-2 p-1">
+              {exp.summary.map((log, index) => (
+                <li className="flex gap-2 p-1" key={index}>
                   <CircleCheck className="mt-1" size={"15px"} />
                   <span className="flex-1">{log}</span>
                 </li>
