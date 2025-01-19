@@ -8,8 +8,7 @@ import {
   DropdownMenuGroup,
   DropdownMenuItem,
 } from "@radix-ui/react-dropdown-menu";
-
-const navMenu = ["Experience", "Projects", "About"];
+import { siteConfig } from "@/config";
 
 const Header = () => {
   return (
@@ -20,10 +19,13 @@ const Header = () => {
 
       {/* Dekstop Mode */}
       <ul className="hidden sm:flex gap-3">
-        {navMenu.map((menu, index) => (
+        {siteConfig.navLinks.map((menu, index) => (
           <li key={index}>
-            <a href={`#${menu}`} className="hover:text-white cursor-pointer">
-              {menu}
+            <a
+              href={`#${menu.href}`}
+              className="hover:text-white cursor-pointer"
+            >
+              {menu.text}
             </a>
           </li>
         ))}
@@ -37,13 +39,13 @@ const Header = () => {
           </DropdownMenuTrigger>
           <DropdownMenuContent className="bg-gray-950 text-white p-2">
             <DropdownMenuGroup>
-              {navMenu.map((menu, index) => (
+              {siteConfig.navLinks.map((menu, index) => (
                 <DropdownMenuItem key={index}>
                   <a
-                    href={`#${menu}`}
+                    href={`#${menu.href}`}
                     className="hover:text-white cursor-pointer"
                   >
-                    {menu}
+                    {menu.text}
                   </a>
                 </DropdownMenuItem>
               ))}
