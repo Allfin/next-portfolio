@@ -19,7 +19,7 @@ const Header = () => {
       </h1>
 
       {/* Dekstop Mode */}
-      <ul className="hidden sm:block sm:flex gap-3">
+      <ul className="hidden sm:flex gap-3">
         {navMenu.map((menu, index) => (
           <li key={index}>
             <a href={`#${menu}`} className="hover:text-white cursor-pointer">
