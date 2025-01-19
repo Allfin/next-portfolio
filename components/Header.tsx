@@ -22,7 +22,7 @@ const Header = () => {
         {siteConfig.navLinks.map((menu, index) => (
           <li key={index}>
             <a
-              href={`#${menu.href}`}
+              href={`${menu.href}`}
               className="hover:text-white cursor-pointer"
             >
               {menu.text}
@@ -42,7 +42,7 @@ const Header = () => {
               {siteConfig.navLinks.map((menu, index) => (
                 <DropdownMenuItem key={index}>
                   <a
-                    href={`#${menu.href}`}
+                    href={`${menu.href}`}
                     className="hover:text-white cursor-pointer"
                   >
                     {menu.text}
