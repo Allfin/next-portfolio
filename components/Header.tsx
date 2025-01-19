@@ -12,7 +12,7 @@ import { siteConfig } from "@/config";
 
 const Header = () => {
   return (
-    <header className="max-w-5xl mx-auto px-6 py-5 flex justify-between sticky top-0 transition-all duration-300 z-50">
+    <header className="max-w-5xl mx-auto px-6 py-5 flex justify-between sticky top-0 transition-all duration-300 z-50 bg-black">
       <h1>
         <HomeIcon />
       </h1>
