@@ -3,7 +3,7 @@ import { CircleCheck } from "lucide-react";
 
 const Experience = () => {
   return (
-    <section>
+    <section className="my-20">
       <h1 className="text-4xl md:text-5xl font-serif font-bold tracking-tighter text-white mb-8">
         Work Experience
       </h1>
