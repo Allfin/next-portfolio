@@ -18,6 +18,40 @@ export const siteContent = {
       "Frontend Developer based in Indonesia. I specialize in building user-friendly web applications using Next.js, with expertise in HTML, CSS, and JavaScript.",
     email: "allfinemaulinaro@email.com",
   },
+  icons: [
+    {
+      img: "/assets/icons/html5.svg",
+      name: "html5",
+    },
+    {
+      img: "/assets/icons/css3.svg",
+      name: "css3",
+    },
+    {
+      img: "/assets/icons/javascript.svg",
+      name: "javascript",
+    },
+    {
+      img: "/assets/icons/react.svg",
+      name: "react",
+    },
+    {
+      img: "/assets/icons/nextdotjs.svg",
+      name: "nextdotjs",
+    },
+    {
+      img: "/assets/icons/vuedotjs.svg",
+      name: "vuedotjs",
+    },
+    {
+      img: "/assets/icons/php.svg",
+      name: "php",
+    },
+    {
+      img: "/assets/icons/tailwindcss.svg",
+      name: "tailwindcss",
+    },
+  ],
   experience: [
     {
       company: "Kubu.id",
